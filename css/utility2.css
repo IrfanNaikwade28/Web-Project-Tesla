@@ -1,0 +1,98 @@
+@media only screen and (max-width:1160px) {
+    #navbarNav > ul:nth-child(1){
+        margin-right:15rem;
+    }
+    .navbar a{
+        margin:0 0.3vw;
+        font-size: 12px;
+    }
+    #Slider1 .page video{
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+    }
+}
+@media only screen and (min-width:320px) and (max-width:424px) {
+    #Slider1 .page video{
+        transform: scale(5.5);
+        -webkit-transform: scale(5.5);
+        -moz-transform: scale(5.5);
+        -ms-transform: scale(5.5);
+        -o-transform: scale(5.5);
+    }
+    header{
+        height:10vh;
+    }
+    header h1 {
+        flex-direction: column;
+        font-size: 10px;
+    }
+    .res-label label span{
+        font-size:7px;
+    }
+    .res-disp-grid{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        font-size: 10px;
+        margin:0;
+    }
+    .res-disp-grid h5{
+        font-size: 10px;
+    }
+    .res-disp-grid img{
+        width:70vw;
+    }
+    #Slider1 .page .btn{
+        width:40vw;
+        font-size: 10px;
+    }
+    .logo{
+        width:10rem;
+    }
+
+    .footer .font-size-3{
+        font-size: 7px;
+        margin:0 5px;
+    }
+}
+@media only screen and (min-width:425px) and (max-width:768px) {
+    #Slider1 .page video{
+        transform: scale(3.9);
+        -webkit-transform: scale(3.9);
+        -moz-transform: scale(3.9);
+        -ms-transform: scale(3.9);
+        -o-transform: scale(3.9);
+    }
+    header{
+        height:10vh;
+    }
+    header h1 {
+        flex-direction: column;
+        font-size: 10px;
+    }
+    #Slider1 .page .btn{
+        width:40vw;
+        font-size: 10px;
+    }
+    .res-label label span{
+        font-size:10px;
+    }
+    .logo{
+        width:5rem;
+    }
+    .footer .font-size-3{
+        font-size: 10px;
+        margin:0 5px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:939px) {
+    #Slider1 .page video{
+        transform: scale(2.8);
+        -webkit-transform: scale(2.8);
+        -moz-transform: scale(2.8);
+        -ms-transform: scale(2.8);
+        -o-transform: scale(2.8);
+    }
+}
